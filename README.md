@@ -1,0 +1,1 @@
+This repository demonstrates a subtle race condition bug in a simple VHDL counter. The bug arises from the potential for the 'enable' signal to change state during a single clock cycle, affecting the counter's output unpredictably. The solution introduces a more robust approach to handle the enable signal, guaranteeing correct operation.
